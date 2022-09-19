@@ -68,6 +68,13 @@
 			   <groupId>org.jboss.as.plugins</groupId>
 			   <artifactId>jboss-as-maven-plugin</artifactId>
 			   <version>7.9.Final</version>
+			   <dependencies>
+			    <dependency>
+			      <groupId>org.jboss.as</groupId>
+			      <artifactId>jboss-as-controller-client</artifactId>
+			      <version>7.2.0.Final</version>
+			    </dependency>
+			  </dependencies>
 			</plugin>
 		</plugins>
 	</build>
