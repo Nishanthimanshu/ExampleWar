@@ -67,7 +67,7 @@
 			<plugin>
 			  <groupId>org.codehaus.cargo</groupId>
 			  <artifactId>cargo-maven3-plugin</artifactId>
-			  <version>${cargo.plugin.version}</version>
+			  <version>1.10.2</version>
 			  <configuration>
 			    <container>
 			      <containerId>jboss7x</containerId>
@@ -85,7 +85,7 @@
 			    <dependency>
 			      <groupId>org.jboss.as</groupId>
 			      <artifactId>jboss-as-controller-client</artifactId>
-			      <version>7.0.2.Final</version>
+			      <version>7.2.0.Final</version>
 			    </dependency>
 			  </dependencies>
 			</plugin>
