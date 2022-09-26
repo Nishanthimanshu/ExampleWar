@@ -29,7 +29,7 @@ public class EmployeeDAO {
     	for(Employee e: list.getEmployeeList()) {
     		if(e.getId()==id) {
     			list.getEmployeeList().remove(e);
-    			return true;
+    			returns true;
     		}
     	}
     	return false;
