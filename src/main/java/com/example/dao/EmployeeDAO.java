@@ -8,6 +8,7 @@ import com.example.entity.Employees;
 @Repository
 public class EmployeeDAO {
 	private static Employees list = new Employees();
+	private int a;
     
     static
     {
